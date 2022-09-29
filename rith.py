@@ -4,8 +4,6 @@ cmd = 'sudo apt update'
 os.system(cmd)
 cmd = 'sudo apt install --assume-yes wget tasksel'
 os.system(cmd)
-cmd = '[[ $(/usr/bin/lsb_release --codename --short) == "stretch" ]] && \'
-os.system(cmd)
 cmd = 'sudo apt install --assume-yes libgbm1/stretch-backports'
 os.system(cmd)
 cmd = 'wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb'
