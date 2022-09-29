@@ -1,12 +1,8 @@
 import os
 
-cmd = 'sudo apt update'
-os.system(cmd)
 cmd = 'sudo apt-get install --assume-yes ./chrome-remote-desktop_current_amd64.deb'
 os.system(cmd)
-cmd = 'sudo apt install --assume-yes  task-gnome-desktop'
-os.system(cmd)
-cmd = 'sudo apt install xfce4-terminal -y'
+cmd = 'sudo apt install --assume-yes  task-lxde-desktop'
 os.system(cmd)
 cmd = 'sudo apt install firefox-esr -y'
 os.system(cmd)
